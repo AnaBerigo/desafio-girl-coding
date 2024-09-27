@@ -22,5 +22,6 @@ git clone https://github.com/seu-usuario/desafio-girl-coding.git
 
 ```
 2. Abra o arquivo `index.html` no navegador para visualizar o projeto.
-## Desenvolvimento
-O projeto foi desenvolvido com foco em boas práticas de código e organização de arquivos. Foi utilizado o conceito de **Mobile First** para garantir que a página tenha um ótimo desempenho e visualização em dispositivos móveis e, em seguida, em telas maiores.
+<!-- ## Desenvolvimento
+O projeto foi desenvolvido com foco em boas práticas de código e organização de arquivos. Foi utilizado o conceito de **Mobile First** para garantir que a página tenha um ótimo desempenho e visualização em dispositivos móveis e, em seguida, em telas maiores. 
+-->
