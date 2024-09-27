@@ -29,14 +29,13 @@ body {
 
 .cabecalho nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .infos__esquerda {
   display: flex;
   align-items: center;
-  gap: 119px;
 }
 
 .logo {
@@ -58,12 +57,6 @@ body {
   &:hover {
     filter: brightness(0.1);
   }
-}
-
-.infos__direita {
-  display: flex;
-  align-items: center;
-  gap: 12px;
 }
 
 .btn__entrar {
@@ -92,7 +85,7 @@ body {
 }
 
 /* para telas menores como tablets */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 990px) {
   .cabecalho {
     padding: 18px 20px;
   }
@@ -103,16 +96,13 @@ body {
 
   .logo {
     width: 120px;
-    margin-right: 20px; /* Reduz o espaço em telas menores */
-  }
-
-  header nav div button {
-    font-size: 0.875rem;
-    margin-left: 10px;
   }
 }
 
 /* para telas menores como tablets */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 740px) {
   /* transformar os li em um menu hamburguer junto com os botoes e manter a logo */
+  .cabecalho {
+    display: none;
+  }
 }
